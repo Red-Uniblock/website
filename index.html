@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red UniBlock – Red de Universidades en Blockchain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="nav-logo">
+        <img src="logo.png" alt="Uniblock" id="logo-img" />
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span></a></li>
+        <li><a href="#universidades">Universidades</a></li>
+        <li><a href="#noticias">Redes</a></li>
+        <li><a href="#auspiciantes">Auspiciantes</a></li>
+        <li><a href="#contacto" class="btn-nav">Unirse</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-left">
+        <img src="logo.png" alt="Uniblock" class="hero-logo" />
+        <p class="hero-sub">
+          Red interuniversitaria que promueve la educación,<br />
+          investigación y aplicación de blockchain,<br />
+          Web3 y ecosistema crypto en el ámbito académico.
+        </p>
+        <div class="hero-actions">
+          <a href="#sobre" class="btn btn-primary">Conocer más</a>
+          <a href="#contacto" class="btn btn-outline">Sumar tu universidad</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-video-clip">
+          <video class="hero-video" id="hero-video" autoplay loop muted playsinline preload="auto">
+            <source src="Video_RedUniBlock1.mp4" type="video/mp4" />
+          </video>
+          <button class="video-mute-btn" id="video-mute-btn" aria-label="Activar sonido">
+            <svg id="icon-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+            </svg>
+            <svg id="icon-sound" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" style="display:none">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE UNIBLOCK -->
+  <section class="section section-light" id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¿Quiénes somos?</span>
+        <h2>Sobre la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span></h2>
+        <p class="section-desc">
+          La <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> nació de la voluntad de universidades argentinas de aunar esfuerzos para construir
+          un ecosistema académico centrado en blockchain, Web3 y ecosistema crypto.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            La <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> es una red interuniversitaria integrada por instituciones comprometidas
+            con el desarrollo, la investigación y la aplicación de blockchain, Web3 y ecosistema crypto
+            en el ámbito académico.
+          </p>
+          <p>
+            Reconociéndose como pares fundadoras, las instituciones miembro se comprometieron
+            a colaborar en la formación de talento especializado, la investigación
+            interdisciplinaria y el desarrollo de estándares académicos vinculados a
+            tecnologías descentralizadas.
+          </p>
+          <p>
+            La <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> está abierta a todas las universidades e institutos universitarios de
+            Argentina que desarrollen proyectos, investigaciones o programas
+            académicos relacionados con blockchain, Web3 o ecosistema crypto.
+          </p>
+        </div>
+
+        <div class="objectives">
+          <h3>Objetivos de la red</h3>
+          <ul class="obj-list">
+            <li>
+              <span class="obj-icon">🎓</span>
+              <div>
+                <strong>Colaboración académica</strong>
+                <p>Perfeccionamiento docente, innovación curricular y desarrollo tecnológico en blockchain, Web3 y crypto.</p>
+              </div>
+            </li>
+            <li>
+              <span class="obj-icon">🔬</span>
+              <div>
+                <strong>Investigación y desarrollo</strong>
+                <p>Impulso de proyectos científicos e implementación de blockchain y Web3 en sistemas universitarios.</p>
+              </div>
+            </li>
+            <li>
+              <span class="obj-icon">🌐</span>
+              <div>
+                <strong>Referencia en políticas</strong>
+                <p>Ser referente en políticas educativas y tecnológicas vinculadas a blockchain, Web3 y ecosistema crypto.</p>
+              </div>
+            </li>
+            <li>
+              <span class="obj-icon">🤝</span>
+              <div>
+                <strong>Vinculación con el ecosistema</strong>
+                <p>Articulación con empresas, organismos públicos y comunidades del ecosistema blockchain, Web3 y crypto.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="actions-title">Líneas de acción</h3>
+      <div class="actions-grid">
+        <div class="action-card">
+          <div class="action-icon">📚</div>
+          <h4>Desarrollo curricular</h4>
+          <p>Incorporación de contenidos, materias y programas académicos en blockchain, Web3 y crypto.</p>
+        </div>
+        <div class="action-card">
+          <div class="action-icon">🧪</div>
+          <h4>Investigación</h4>
+          <p>Convocatoria a equipos mixtos de investigación interuniversitaria.</p>
+        </div>
+        <div class="action-card">
+          <div class="action-icon">🏭</div>
+          <h4>Vinculación con la industria</h4>
+          <p>Articulación con sectores públicos y privados para la adopción de blockchain y Web3.</p>
+        </div>
+        <div class="action-card">
+          <div class="action-icon">🎙️</div>
+          <h4>Eventos y divulgación</h4>
+          <p>Congresos, jornadas, hackathons y encuentros académicos sobre blockchain, Web3 y crypto.</p>
+        </div>
+        <div class="action-card">
+          <div class="action-icon">🏅</div>
+          <h4>Certificación académica</h4>
+          <p>Desarrollo de estándares y certificaciones verificadas mediante blockchain.</p>
+        </div>
+        <div class="action-card">
+          <div class="action-icon">🌍</div>
+          <h4>Internacionalización</h4>
+          <p>Alianzas con universidades extranjeras y participación en foros internacionales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIVERSIDADES MIEMBRO -->
+  <section class="section section-gray" id="universidades">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Instituciones</span>
+        <h2>Universidades miembro</h2>
+        <p class="section-desc">
+          La <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> está integrada por universidades públicas y privadas comprometidas
+          con la innovación en blockchain, Web3 y ecosistema crypto.
+        </p>
+      </div>
+
+      <h3 class="uni-group-title">Universidades fundadoras</h3>
+      <div class="uni-grid">
+
+        <!-- UCH -->
+        <div class="uni-card">
+          <a href="https://www.uch.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-uch">
+            <img src="logos/uch.svg" alt="UCH" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UCH</div>
+          </a>
+          <div class="uni-info">
+            <a href="universidades/champagnat.html" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Champagnat</h4>
+            <span class="uni-location">Mendoza, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.uch.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://ar.linkedin.com/school/universidad-champagnat/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/uchampagnat/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/uchampagnat" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UNMDP -->
+        <div class="uni-card">
+          <a href="https://www.mdp.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-unmdp">
+            <img src="logos/unmdp.svg" alt="UNMDP" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UNMDP</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.mdp.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Nacional de Mar del Plata</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.mdp.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/universidad-nacional-de-mar-del-plata/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/unmdp_oficial/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/unmdp" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UNR -->
+        <div class="uni-card">
+          <a href="https://www.unr.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap">
+            <img src="logos/unr.png" alt="UNR" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UNR</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.unr.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Nacional de Rosario</h4>
+            <span class="uni-location">Santa Fe, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.unr.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/universidad-nacional-de-rosario/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/unroficial/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/UNRoficial" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UB -->
+        <div class="uni-card">
+          <a href="https://www.ub.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-ub">
+            <img src="logos/ub.svg" alt="UB" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UB</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.ub.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad de Belgrano</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.ub.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/universidad-de-belgrano/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/universidadbelgrano/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/ubeduar" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UTN.BA -->
+        <div class="uni-card">
+          <a href="https://www.frba.utn.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap">
+            <img src="logos/utn.jpg" alt="UTN.BA" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UTN.BA</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.frba.utn.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>UTN Facultad Regional Buenos Aires</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.frba.utn.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://ar.linkedin.com/company/utn--regional-ba" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/utnba.ok/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/frbautn" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UTDT -->
+        <div class="uni-card">
+          <a href="https://www.utdt.edu" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-utdt">
+            <img src="logos/utdt.svg" alt="UTDT" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UTDT</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.utdt.edu" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Torcuato Di Tella</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.utdt.edu" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/universidad-torcuato-di-tella/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/univditella/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/utditella" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 class="uni-group-title">Universidades adherentes</h3>
+      <div class="uni-grid uni-grid-small">
+
+        <!-- UNCuyo -->
+        <div class="uni-card">
+          <a href="https://www.uncuyo.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap">
+            <img src="logos/uncuyo.svg" alt="UNCuyo" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UNCuyo</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.uncuyo.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Nacional de Cuyo</h4>
+            <span class="uni-location">Mendoza, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.uncuyo.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://ar.linkedin.com/school/uncuyo/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/uncuyo/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/UNCUYO" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UdeMM -->
+        <div class="uni-card">
+          <a href="https://www.udemm.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap">
+            <img src="logos/udemm.png" alt="UdeMM" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UdeMM</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.udemm.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad de la Marina Mercante</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.udemm.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://ar.linkedin.com/school/universidad-de-la-marina-mercante/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/udemmuniversidad/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/UdeMMoficial" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- UBA -->
+        <div class="uni-card">
+          <a href="https://www.uba.ar" target="_blank" rel="noopener" class="uni-logo-wrap">
+            <img src="logos/uba.png" alt="UBA" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">UBA</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.uba.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad de Buenos Aires</h4>
+            <span class="uni-location">Buenos Aires, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.uba.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/universidad-de-buenos-aires/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/uba_ar/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/UBARectorado" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Siglo 21 -->
+        <div class="uni-card">
+          <a href="https://www.21.edu.ar" target="_blank" rel="noopener" class="uni-logo-wrap uni-size-siglo21">
+            <img src="logos/siglo21.jpg" alt="Siglo 21" class="uni-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="uni-logo-placeholder" style="display:none">Siglo 21</div>
+          </a>
+          <div class="uni-info">
+            <a href="https://www.21.edu.ar" target="_blank" rel="noopener" class="uni-more-btn">Más información</a>
+            <h4>Universidad Siglo 21</h4>
+            <span class="uni-location">Córdoba, Argentina</span>
+            <div class="uni-social">
+              <a href="https://www.21.edu.ar" target="_blank" rel="noopener" title="Sitio web">🌐</a>
+              <a href="https://www.linkedin.com/school/lasiglo21/" target="_blank" rel="noopener" title="LinkedIn">in</a>
+              <a href="https://www.instagram.com/lasiglo21/" target="_blank" rel="noopener" title="Instagram">ig</a>
+              <a href="https://x.com/LaSiglo21" target="_blank" rel="noopener" title="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- En proceso -->
+        <div class="uni-card uni-card-pending">
+          <div class="uni-logo-wrap">
+            <div class="pending-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#1a3a68" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="136" height="136">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                <line x1="19" y1="3" x2="19" y2="7"/>
+                <line x1="17" y1="5" x2="21" y2="5"/>
+              </svg>
+            </div>
+          </div>
+          <div class="uni-info">
+            <h4>+14 universidades</h4>
+            <span class="uni-location">En proceso de incorporación</span>
+            <p class="pending-text">Más de 14 universidades se encuentran en proceso de incorporarse a la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span>.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="join-banner">
+        <p>¿Tu universidad trabaja en blockchain, Web3 o crypto? <strong>Sumate a la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span>.</strong></p>
+        <a href="#contacto" class="btn btn-primary">Solicitar incorporación</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REDES SOCIALES / NOTICIAS -->
+  <section class="section section-light" id="noticias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Actualidad</span>
+        <h2>Seguinos en las redes sociales</h2>
+        <p class="section-desc">Las últimas novedades de <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> en nuestras redes sociales.</p>
+      </div>
+
+      <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+      <script type="text/javascript">
+        (function(){
+          var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+          i.src="https://cdn.curator.io/published/241f8bbe-fd75-4a18-b93a-fa1b73fcbda5.js";
+          e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        })();
+      </script>
+    </div>
+  </section>
+
+  <!-- AUSPICIANTES -->
+  <section class="section section-gray sponsors-section" id="auspiciantes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Apoyo institucional</span>
+        <h2>Auspiciantes</h2>
+        <p class="section-desc">Agradecemos profundamente a <strong>Blockchain Acceleration Foundation - BAF</strong>, nuestro primer y único auspiciante, cuyo apoyo hizo posible el desarrollo de este sitio web, nuestras acciones en redes sociales y muchas otras iniciativas que dan vida a la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span>.</p>
+      </div>
+      <div class="sponsors-grid">
+        <a href="https://www.blockchainacceleration.org/" target="_blank" rel="noopener" class="sponsor-card">
+          <div class="sponsor-logo-wrap">
+            <img src="logos/baf.svg" alt="BAF" class="sponsor-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="sponsor-placeholder" style="display:none">BAF</div>
+          </div>
+          <span class="sponsor-name">Blockchain Acceleration Foundation</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-dark" id="contacto">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-tag tag-light">Contacto</span>
+        <h2>Uníte a la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span></h2>
+        <p class="section-desc">
+          Si tu universidad desarrolla proyectos en blockchain, Web3 o crypto y quiere ser parte de la red,
+          completá el formulario o escribinos directamente.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@universidad.edu.ar" required />
+          </div>
+          <div class="form-group">
+            <label for="universidad">Universidad</label>
+            <input type="text" id="universidad" name="universidad" placeholder="Nombre de tu institución" required />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos sobre tu iniciativa en blockchain, Web3 o crypto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar solicitud</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Información de contacto</h3>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:reduniblock@gmail.com">reduniblock@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🌐</span>
+            <div>
+              <strong>Sitio web</strong>
+              <a href="https://reduniblock.net">reduniblock.net</a>
+            </div>
+          </div>
+
+          <h3 class="mt-32">Redes sociales</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/reduniblock" target="_blank" rel="noopener" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://www.instagram.com/reduniblock/" target="_blank" rel="noopener" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Instagram
+            </a>
+            <a href="https://x.com/reduniblock" target="_blank" rel="noopener" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              X (Twitter)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Uniblock" class="footer-logo" />
+        <p>Red de Universidades en Blockchain</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre la <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span></a>
+        <a href="#universidades">Universidades</a>
+        <a href="#noticias">Redes</a>
+        <a href="#auspiciantes">Auspiciantes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/reduniblock" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/reduniblock/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://x.com/reduniblock" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 <span class="brand-uni">Red Uni</span><span class="brand-block">Block</span> – Red de Universidades en Blockchain. Todos los derechos reservados.</p>
+      <a href="https://www.blockchainacceleration.org/" target="_blank" rel="noopener" class="footer-sponsor">
+        <span>Auspiciante</span>
+        <img src="logos/baf.svg" alt="Blockchain Acceleration Foundation" class="footer-sponsor-logo" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
