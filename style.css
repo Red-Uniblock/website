@@ -122,6 +122,7 @@ ul { list-style: none; }
 .hero {
   position: relative;
   display: flex; align-items: center;
+  min-height: 100vh;
   padding-top: 68px;
   overflow: hidden;
 }
@@ -288,14 +289,14 @@ ul { list-style: none; }
 }
 .uni-card:hover { box-shadow: var(--shadow); border-color: var(--orange); }
 .uni-logo-wrap {
-  width: 243px; height: 243px; flex-shrink: 0;
+  width: 243px; height: 244px; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
-  text-decoration: none;
+  text-decoration: none; overflow: hidden;
 }
 a.uni-logo-wrap { cursor: pointer; }
 a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transition: opacity .2s, transform .2s; }
 .uni-logo-placeholder {
-  width: 243px; height: 243px;
+  width: 243px; height: 194px;
   background: #f2e6c0; color: #7a5c08;
   border-radius: 10px;
   display: flex; align-items: center; justify-content: center;
@@ -304,12 +305,14 @@ a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transi
 }
 .uni-card img.uni-logo {
   width: 243px; height: 243px; object-fit: contain;
+  max-height: 100%; max-width: 100%;
 }
 .uni-size-uch { width: 305px; } .uni-size-uch img.uni-logo       { width: 305px; height: 305px; }
 .uni-size-unmdp { width: 291px; } .uni-size-unmdp img.uni-logo   { width: 291px; height: 291px; }
 .uni-size-siglo21 { width: 267px; } .uni-size-siglo21 img.uni-logo { width: 267px; height: 267px; }
 .uni-size-utdt { width: 207px; } .uni-size-utdt img.uni-logo     { width: 207px; height: 207px; }
 .uni-size-ub { width: 219px; } .uni-size-ub img.uni-logo         { width: 219px; height: 219px; }
+.uni-size-uncuyo { width: 279px; } .uni-size-uncuyo img.uni-logo { width: 279px; height: 279px; }
 .uni-info { display: flex; flex-direction: column; align-items: center; gap: 4px; }
 .uni-info h4 { font-size: 1.1rem; font-weight: 600; line-height: 1.3; white-space: nowrap; }
 .uni-location { font-size: .75rem; color: var(--gray-500); }
@@ -330,10 +333,14 @@ a.uni-logo-wrap:hover img.uni-logo { opacity: .8; transform: scale(1.03); transi
   padding: 7px 18px; border-radius: 6px;
   background: var(--orange); color: var(--white);
   font-size: .82rem; font-weight: 600; text-decoration: none;
-  transition: background .2s;
-  margin-bottom: 34px;
+  transition: background .2s, transform .2s, box-shadow .2s;
+  margin-bottom: 27px;
 }
-.uni-more-btn:hover { background: var(--orange-dark); }
+.uni-more-btn:hover {
+  background: #3d2200;
+  transform: scale(1.07);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+}
 .uni-card-pending {
   background: #e8f0fb; border: 2px dashed #7aabdc;
   justify-content: center; text-align: center;

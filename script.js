@@ -50,7 +50,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   );
 
   setTimeout(() => {
-    window.location.href = `mailto:reduniblock@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@reduniblock.org?subject=${subject}&body=${body}`;
     btn.textContent = original;
     btn.disabled = false;
   }, 600);
